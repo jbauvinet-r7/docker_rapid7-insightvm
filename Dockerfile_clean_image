@@ -1,0 +1,10 @@
+FROM ubuntu:22.04
+
+LABEL maintainer="Jean-Baptiste Auvinet - https://github.com/jbauvinet-r7"
+
+VOLUME ["/opt/rapid7/nexpose/nsc/logs/"]
+
+WORKDIR /opt/rapid7/nexpose/
+
+ENTRYPOINT ["/opt/rapid7/nexpose"]
+CMD ["run"]

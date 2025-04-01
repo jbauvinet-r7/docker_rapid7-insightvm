@@ -1,0 +1,10 @@
+---
+services:
+  rapid7-insightvm:
+    image: jbauvinet-r7/docker_rapid7-insightvm
+    container_name: rapid7-insightvm
+    hostname: insightvm.domain.com
+    volumes:
+      - /path/to/persistent/storage/logs/:/opt/rapid7/nexpose/nsc/logs/
+    network_mode: "host"
+    restart: unless-stopped
