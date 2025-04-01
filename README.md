@@ -50,7 +50,7 @@ docker run \
 
 After starting the InsightVM Console for the first time, wait a few ilnutes and login with:
 
-`https://insightvm.domain.com:3780`
+`https://localhost:3780`
 
 Username: `nxadmin`  
 Password: `nxpassword`
