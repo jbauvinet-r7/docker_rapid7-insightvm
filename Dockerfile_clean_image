@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-LABEL maintainer="Jean-Baptiste Auvinet - https://github.com/jbauvinet-r7"
+LABEL maintainer="Jean-Baptiste Auvinet - https://github.com/jbauvinet"
 
 VOLUME ["/opt/rapid7/nexpose/nsc/logs/"]
 

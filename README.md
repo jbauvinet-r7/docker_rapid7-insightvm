@@ -50,7 +50,7 @@ docker run \
 
 After starting the InsightVM Console for the first time, wait a few ilnutes and login with:
 
-`https://127.0.0.1:3780`
+`https://insightvm.domain.com:3780`
 
 Username: `nxadmin`  
 Password: `nxpassword`
@@ -71,4 +71,4 @@ Since the setup automatically starts the InsightVM Console, it generates unique 
 
 You can give feedback on the [Rapid7 Discuss Board](https://discuss.rapid7.com/t/insightidr-collector-as-a-docker-container/3483).
 
-For bugs and improvements please [create an issue](https://github.com/jbauvinet-r7/docker_rapid7-insightvm/issues) or send a [pull request](https://github.com/jbauvinet-r7/docker_rapid7-insightvm/pulls).
+For bugs and improvements please [create an issue](https://github.com/jbauvinet/docker_rapid7-insightvm/issues) or send a [pull request](https://github.com/jbauvinet/docker_rapid7-insightvm/pulls).
